@@ -1,0 +1,90 @@
+.navigation-panel{
+    box-shadow: 2px 1px 10px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  form{
+    padding: 0 2rem;
+}
+.about{
+    padding: 2rem 0;
+}
+.pads{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.note{
+    padding: 2rem 0 0 0;
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.lil-note{
+    font-size: x-small;
+    text-transform: lowercase;
+    text-align: center;
+}
+.padding-con .card {
+    padding: 0;
+    box-shadow: 0 0 0;
+}
+
+.box-sh{
+    padding: 0;
+    box-shadow: 0 0 0;
+    align-items: center;
+}
+.box-sh :hover{
+    transition: ease-in;
+    transition-duration: .6s;
+    box-shadow: 1px 1px 5px;
+    padding: 0.2rem;
+
+}
+.margin-center{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.margin-center :hover{
+    transition: ease-in;
+    transition-duration: .6s;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.present {
+    background-color: #fff;
+
+}
+
+/*------------------ Media query ---------------*/
+@media screen
+  and (min-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .stick{
+        position: fixed;
+    }
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    .bottom :hover{
+        transition: ease-in;
+        transition-duration: .6s;
+        box-shadow: 1px 1px 3px;
+    }
+
+
+  }
+
+  /*------------------End of Media query ---------------*/

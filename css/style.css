@@ -1,0 +1,179 @@
+/*--------------------------------------------- GENERAL LAYOUT STRUCTURE ---------------------------------------------*/
+body{
+    letter-spacing: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.4;
+    transition-duration: .6s;
+}
+
+
+/* Navigation bar */
+.navbar{
+    border-bottom: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    z-index: 10;
+}
+.search-border{
+    border: 1px solid #2e3091;
+    border-radius: 15px 0 0 15px;
+
+}
+.search-btn{
+    border: 1px solid #2e3091;
+    border-radius: 0 15px 15px 0;
+}
+
+/* End of navigation bar */
+
+/* Landing page */
+
+/* End of landing page */
+
+/* Description */
+.description{
+    padding: 4rem 0 ;
+}
+.tagline{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+    color: #2e3091;
+    /* box-shadow: 5px 3px 6px; */
+}
+/* End of description */
+
+/* About */
+.about{
+    padding: 4rem 0;
+}
+.about-card{
+    padding: 2rem 1rem;
+}
+.card{
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 10px 10px 18px grey;
+}
+.icons{
+    margin-left: 30%;
+    padding: 2rem 0;
+}
+/* End of about */
+
+/* Introduction */
+.intro{
+    padding: 3rem 0;
+}
+/* End of introduction */
+
+/* Footer */
+.footer-bg{
+    padding: 3rem 0;
+}
+.visit{
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 1rem;
+}
+.sign-up{
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+.paddings{
+    padding-left: 2rem;
+}
+.note{
+    padding: 2rem 0 0 0;
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.lil-note{
+    font-size: x-small;
+    text-transform: lowercase;
+    text-align: center;
+}
+/* End of footer */
+
+/*------------------ Media query ---------------*/
+@media screen
+  and (min-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .bottom :hover{
+        transition: ease-in;
+        transition-duration: .6s;
+        height: 5px;
+        padding-bottom: 5px;
+        border-top: solid rgba(160, 160, 165, 0.849);
+        border-radius: 2px;
+    }
+
+    .present {
+        height: 5px;
+        border-top: solid rgba(4, 30, 80, 0.644);
+        border-radius: 2px;
+
+    }
+
+
+}
+@media screen
+  and (max-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1){
+    .search-border{
+        border: 1px solid #2e3091;
+        border-radius: 15px 15px 15px 15px;
+
+    }
+    .search-btn{
+        border: 1px solid #2e3091;
+        border-radius: 15px 15px 15px 15px;
+        
+    }
+  }
+
+/*------------------End of  Media query ---------------*/
+
+/*--------------------------------------------- END OF GENERAL STRUCTURE --------------------------------------------- */
+
+/*--------------------------------------------- INDEX PAGE --------------------------------------------- */
+
+/*--------------------------------------------- END OF INDEX PAGE --------------------------------------------- */
+
+/*--------------------------------------------- ABOUT PAGE --------------------------------------------- */
+
+/*--------------------------------------------- END OF ABOUT PAGE --------------------------------------------- */
+
+/*--------------------------------------------- PROGRAMS PAGE --------------------------------------------- */
+
+/*--------------------------------------------- END OF PROGRAMS PAGE --------------------------------------------- */
+
+/*--------------------------------------------- GALLERY PAGE --------------------------------------------- */
+
+/*--------------------------------------------- END OF GALLERY PAGE --------------------------------------------- */
+
+/*--------------------------------------------- NEWS PAGE --------------------------------------------- */
+.box-sh{
+    padding: 0;
+    box-shadow: 0 0 0;
+    align-items: center;
+}
+.box-sh :hover{
+    transition: ease-in;
+    transition-duration: .6s;
+    box-shadow: 1px 1px 5px;
+    padding: 0.2rem;
+
+}
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .categories{
+        position: fixed;
+    }
+  }
+
+/*--------------------------------------------- END OF NEWS PAGE --------------------------------------------- */
