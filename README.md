@@ -3,6 +3,8 @@ This is a php based website that allows users to add, remove and update content 
 it has a login system and different user level(admin, normal user and extended user). 
 It can allow sharing of pictures, news and videos with the general public.
 It also allows the user to share internal office documents for remote access
+Click the link to see the site 
+https://mpikenya.org/
 
 
 ![mpikenya org_(Laptop with HiDPI screen) (3)](https://user-images.githubusercontent.com/44639335/103586385-08b60500-4ef6-11eb-9335-ed9aec38ef84.png)
